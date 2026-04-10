@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>thakaly.io — Premium Domain For Sale</title>
+<meta name="description" content="thakaly.io is a premium .io domain for sale. ذكالي is the modern Arabic term for Artificial Intelligence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Mono:wght@400;500&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f8f9fc;
+    --surface: #ffffff;
+    --border: #e2e6ef;
+    --accent: #2563eb;
+    --accent-dim: #1d4ed8;
+    --text: #0f172a;
+    --muted: #64748b;
+    --subtle: #eef1f8;
+  }
+
+  body { background: var(--bg); }
+
+  .page { display: none; padding: 3rem 1.5rem; max-width: 520px; margin: 0 auto; min-height: 100vh; }
+  .page.active { display: block; }
+
+  .lang-toggle { text-align: right; margin-bottom: 2.5rem; }
+
+  .lang-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    color: var(--muted);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    transition: all 0.15s;
+  }
+  .lang-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .domain {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.4rem, 8vw, 3.6rem);
+    color: var(--text);
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+  }
+  .domain span { color: var(--accent); }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.07em;
+    background: var(--subtle);
+    border: 0.5px solid var(--border);
+    color: var(--muted);
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .meaning {
+    border-left: 2px solid var(--accent);
+    padding: 1rem 1rem 1rem 1.25rem;
+    margin-bottom: 2rem;
+    background: var(--subtle);
+    border-radius: 0 6px 6px 0;
+  }
+  .meaning p { font-size: 14px; color: var(--muted); line-height: 1.9; }
+  .meaning strong { color: var(--text); font-weight: 500; }
+
+  .divider { border: none; border-top: 0.5px solid var(--border); margin: 2rem 0; }
+
+  .tg-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 14px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .tg-btn:hover { background: var(--accent-dim); }
+
+  .tg-icon { width: 18px; height: 18px; flex-shrink: 0; }
+
+  .hint {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    opacity: 0.6;
+  }
+
+  .footer {
+    margin-top: 3rem;
+    font-size: 11px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    opacity: 0.5;
+  }
+
+  #ar { direction: rtl; }
+  #ar .lang-toggle { text-align: left; }
+  #ar .meaning {
+    border-left: none;
+    border-right: 2px solid var(--accent);
+    padding-left: 1rem;
+    padding-right: 1.25rem;
+    border-radius: 6px 0 0 6px;
+  }
+  #ar .domain,
+  #ar .meaning p { font-family: 'Cairo', sans-serif; }
+  #ar .badge,
+  #ar .tg-btn,
+  #ar .hint,
+  #ar .footer { font-family: 'Cairo', sans-serif; letter-spacing: 0; font-size: 13px; }
+  #ar .footer { text-align: right; }
+</style>
+</head>
+<body>
+
+<div id="en" class="page active">
+  <div class="lang-toggle">
+    <button class="lang-btn" onclick="switchLang('ar')">العربية</button>
+  </div>
+  <div class="domain">thakaly<span>.io</span></div>
+  <span class="badge"><span class="dot"></span>premium domain &middot; for sale</span>
+  <div class="meaning">
+    <p>
+      <strong>Thakaly</strong> — a modern Arabic term for Artificial Intelligence,<br>
+      officially listed in Al-Maani dictionary.<br>
+      <strong>ذكاء</strong> (intelligence) + <strong>آلي</strong> (artificial) = ذكالي
+    </p>
+  </div>
+  <hr class="divider">
+  <a class="tg-btn" href="https://t.me/ftw010" target="_blank" rel="noopener">
+    <svg class="tg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 7.3l-1.68 7.92c-.12.56-.46.7-.93.43l-2.58-1.9-1.24 1.2c-.14.14-.26.26-.52.26l.18-2.63 4.74-4.28c.2-.18-.05-.28-.32-.1L8.34 14.5l-2.54-.8c-.55-.17-.56-.55.12-.82l9.92-3.82c.46-.17.86.11.69.84z" fill="white"/>
+    </svg>
+    contact on telegram
+  </a>
+  <p class="hint">opens t.me/ftw010</p>
+  <div class="footer">thakaly.io &copy; 2026</div>
+</div>
+
+<div id="ar" class="page">
+  <div class="lang-toggle">
+    <button class="lang-btn" onclick="switchLang('en')">English</button>
+  </div>
+  <div class="domain">thakaly<span>.io</span></div>
+  <span class="badge"><span class="dot"></span>نطاق مميز &middot; للبيع</span>
+  <div class="meaning">
+    <p>
+      <strong>ذكالي</strong> — مصطلح عربي حديث للذكاء الاصطناعي،<br>
+      مُدرج رسمياً في معجم المعاني الجامع.<br>
+      <strong>ذكاء</strong> + <strong>آلي</strong> = ذكالي
+    </p>
+  </div>
+  <hr class="divider">
+  <a class="tg-btn" href="https://t.me/ftw010" target="_blank" rel="noopener">
+    <svg class="tg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 7.3l-1.68 7.92c-.12.56-.46.7-.93.43l-2.58-1.9-1.24 1.2c-.14.14-.26.26-.52.26l.18-2.63 4.74-4.28c.2-.18-.05-.28-.32-.1L8.34 14.5l-2.54-.8c-.55-.17-.56-.55.12-.82l9.92-3.82c.46-.17.86.11.69.84z" fill="white"/>
+    </svg>
+    تواصل عبر تيليغرام
+  </a>
+  <p class="hint">t.me/ftw010</p>
+  <div class="footer">thakaly.io &copy; 2026</div>
+</div>
+
+<script>
+  function switchLang(lang) {
+    document.getElementById('en').classList.remove('active');
+    document.getElementById('ar').classList.remove('active');
+    document.getElementById(lang).classList.add('active');
+    document.documentElement.lang = lang;
+  }
+</script>
+
+</body>
+</html>
